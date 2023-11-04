@@ -2428,4 +2428,22 @@ form label {
 .cover_cp1 {
   filter: drop-shadow(0 0 10px #d291bc);
 }
+
+#fh5co-address {
+  padding: 7em 0;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+#fh5co-address:before {
+  content: " ";
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  background-image: url(../images/background/blue-brush-1.jpg);
+}
 /*# sourceMappingURL=style.css.map */
